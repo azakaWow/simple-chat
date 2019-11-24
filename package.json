@@ -1,11 +1,12 @@
 {
-  "name": "webpack-boilerplate",
+  "name": "simple-chat",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "build": "npm i",
-    "start": "webpack-dev-server --mode=development"
+    "start-FE": "webpack-dev-server --mode=development",
+    "start-BE": "node ./server/index.js"
   },
   "author": "",
   "license": "ISC",
@@ -14,5 +15,9 @@
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "sockjs": "^0.3.19",
+    "sockjs-client": "^1.4.0"
   }
 }
