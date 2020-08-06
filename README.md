@@ -1,1 +1,1 @@
-Just a boilerplate for webpack
+crappy chat
